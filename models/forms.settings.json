@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "name": "forms"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "formName": {
+      "type": "string"
+    },
+    "date": { "type": "date" },
+    "verified": {
+      "type": "boolean"
+    }
+  }
+}
